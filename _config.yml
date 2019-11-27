@@ -17,8 +17,8 @@ PJAX: false #启用PJAX，会与评论系统冲突（如不用评论系统建议
 paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
-background: https://api.dujin.org/bing/1920.php
-theme_color: 546E7A
+background:
+theme_color: 0078d4
 
 google_analytics:
 # hydrogen-blog date format

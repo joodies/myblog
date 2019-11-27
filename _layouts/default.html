@@ -27,7 +27,7 @@
       <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
     {% endif %}
     <meta name="keywords" itemprop="keywords" content="{{ site.keywords | escape }}">
-    <link rel="shortcut icon" sizes="128x128" href="{{ site.url }}{{ site.baseurl }}/avatar/favicon.png">
+    <link rel="shortcut icon" sizes="128x128" href="{{ site.url }}{{ site.baseurl }}/avatar/favicon.ico">
     <meta name="robots" content="noarchive">
 
    {% comment %}
@@ -47,10 +47,10 @@
       {% assign page-tagline = page.tagline | escape %}
     {% endif %}
     {% if page.layout == 'post' %}
-      {% assign page-tagline = page.tagline | escape  %}
+      {% assign page-tagline = page.tagline | escape %}
     {% endif %}
     {% if page.layout == 'tags' %}
-      {% assign page-tagline = page.tagline | escape  %}
+      {% assign page-tagline = page.tagline | escape %}
     {% endif %}
     <script>
       var OriginTitile = document.title;
