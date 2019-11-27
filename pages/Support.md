@@ -3,7 +3,7 @@ layout: page
 title: Support
 tagline: 关于我 ~
 sitetime: display
-permalink: /about.html
+permalink: /support.html
 ---
 
 ## #作者
