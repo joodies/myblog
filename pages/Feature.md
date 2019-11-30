@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Feature
+title: How it works
 tagline: Biu~
 permalink: /feature.html
 ---

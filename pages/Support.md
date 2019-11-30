@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Support
-tagline: 关于我 ~
+tagline: 
 sitetime: display
 permalink: /support.html
 ---
