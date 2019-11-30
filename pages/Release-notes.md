@@ -18,7 +18,7 @@ permalink: /release.html
                 </div>
             </li>
             <li>
-                <div>When you click [Copy] of a wildcard inbox, you will always get a new email address.
+                <div>When you click [Copy] of a wildcard inbox, you will always get a new email address. Try it now <a target="_blank" href="https://snapmail.cc/#/addEmailBox">Add a wildcard inbox.</a>
                 </div>
             </li>
             <li>
