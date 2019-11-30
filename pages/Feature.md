@@ -1,10 +1,10 @@
 ---
 layout: page
 title: How it works
-tagline: Biu~
+tagline: 
 permalink: /feature.html
 ---
 
-<div style="text-align:center">:shit:nothing...</div>
+<div style="text-align:center">nothing...</div>
 
 [Homepage]({{ site.url }})

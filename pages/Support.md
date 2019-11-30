@@ -6,5 +6,6 @@ sitetime: display
 permalink: /support.html
 ---
 
-## #作者
+### Something is not working properly? You can send an email to us.
+### Email: <a href="mailto:gaxdev+snapmail@gmail.com">gaxdev+snapmail@gmail.com</a>
 
