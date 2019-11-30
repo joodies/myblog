@@ -4,8 +4,8 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    {% if page.layout != 'home' %}
-      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {% if page.layout != 'home888' %}
+      <a class="site-title" href="{{ "/" | relative_url }}"><i style="padding-right: 8px" class="fa fa-envelope a"></i> Snapmail.cc</a>
     {% endif %}
 
     {% if page_paths %}
