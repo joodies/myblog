@@ -31,6 +31,9 @@ stickie:
         <li>
           <div>You can only send email to snapmail email address with snapmail SMTP service.</div>
         </li>
+        <li>
+          <div>Please check port 25 is not blocked in your network.</div>
+        </li>
       </ul>
     </section>
 
