@@ -22,6 +22,7 @@
         </label>
 
         <div class="trigger">
+          <a class="page-link" target="_blank" href="https://www.snapmail.cc">Try Snapmail</a>
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
