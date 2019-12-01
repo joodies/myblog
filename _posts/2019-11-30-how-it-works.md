@@ -15,3 +15,5 @@ stickie: true
 #### 3. Send email with Snapmail SMTP server. <a target='_blank' href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">Find more about how to send an email with Snapmail SMTP.</a>
 
 #### 4. Automate user registration with Snapmail API.
+
+<a target="_blank" href="https://www.snapmail.cc">Try Snapmail now.</a>

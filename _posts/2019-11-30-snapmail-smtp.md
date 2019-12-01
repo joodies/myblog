@@ -37,4 +37,5 @@ stickie:
       </ul>
     </section>
 
-  </div>
+</div>
+<a target="_blank" href="https://www.snapmail.cc">Try Snapmail now.</a>

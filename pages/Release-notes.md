@@ -67,3 +67,4 @@ permalink: /release.html
     </section>
 
 </div>
+<a target="_blank" href="https://www.snapmail.cc">Try Snapmail now.</a>
