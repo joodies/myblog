@@ -16,6 +16,6 @@ stickie: true
 
 #### 4. Automate user registration with Snapmail API.
 
-<a target="_blank" href="https://www.snapmail.cc">Try Snapmail now.</a>
+<a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
 
 <a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
