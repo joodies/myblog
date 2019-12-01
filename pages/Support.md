@@ -10,3 +10,5 @@ permalink: /support.html
 ### Email: <a href="mailto:gaxdev+snapmail@gmail.com">gaxdev+snapmail@gmail.com</a>
 
 <a target="_blank" href="https://www.snapmail.cc">Try Snapmail now.</a>
+
+<a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
