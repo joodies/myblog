@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Support
+lang: en
 tagline: 
 sitetime: display
-permalink: /support.html
+permalink: en/support.html
 ---
 
 ### Something is not working properly? You can send an email to us.

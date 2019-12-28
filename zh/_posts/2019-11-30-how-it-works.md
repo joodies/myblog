@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Snapmail works?
+lang: zh
 tags: 
 stickie: true
 ---

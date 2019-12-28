@@ -1,0 +1,53 @@
+try:
+  en: Try
+  zh: 体验
+
+share:
+  default: 'Share: '
+  en: 'Share: '
+  zh: 分享：
+
+search:
+  default: Search
+  en: Search
+  zh: 搜索
+
+no_result:
+  default: 'No result'
+  en: 'No result'
+  zh: 无结果
+
+about:
+  default: About
+  en: About
+  zh: 关于
+
+posts:
+  default: Posts
+  en: Posts
+  zh: 文章
+
+contact:
+  default: Contact
+  en: Contact
+  zh: 联系
+
+language:
+  default: Language
+  en: Language
+  zh: 语言
+
+reading:
+  default: "I'm reading"
+  en: "I'm reading"
+  zh: 我在读
+
+sitemap:
+  default: 'Site Map'
+  en: 'Site Map'
+  zh: 站点地图
+
+subscribe_via:
+  default: 'Subscribe via'
+  en: 'Subscribe via'
+  zh: '订阅：'

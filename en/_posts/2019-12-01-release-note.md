@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Release note - Dec 1, 2019 
+lang: en
 tags: 
 stickie: 
 ---

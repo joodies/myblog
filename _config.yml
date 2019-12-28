@@ -15,7 +15,7 @@ buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/ti
 PJAX: false #启用PJAX，会与评论系统冲突（如不用评论系统建议开启）
 
 paginate: 8 #同时显示的最大文章数，超过自动分页
-paginate_path: "page:num"
+#paginate_path: "en/page:num"
 
 background: /assets/image/email.png
 theme_color: 0078d4
@@ -32,6 +32,7 @@ MathJax: false
 #install emoji
 plugins:
   - jemoji
+  - jekyll-paginate
 
 # social account
 image:

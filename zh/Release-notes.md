@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Release notes
+title: 版本历史
+lang: zh
 sitetime: display
-permalink: /release.html
+permalink: zh/release.html
 ---
 
 <div id="release-notes">

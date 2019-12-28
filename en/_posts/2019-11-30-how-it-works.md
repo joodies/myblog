@@ -1,44 +1,30 @@
 ---
 layout: post
-title: How to send an email with Snapmail SMTP?
+title: How Snapmail works?
+lang: en
 tags: 
-stickie: 
+stickie: true
 ---
 
-<div id="release-notes">
-    <section>
-      <h4>When do you need this service?</h4>
-      <ul>
-        <li>
-          <div>You are testing user-registration or password-reset email, and you don't have an SMTP
-            server to send email.
-          </div>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h4>SMTP Server</h4>
-      <ul>
-        <li>
-          <div><b>Host</b>: mail.snapmail.cc</div>
-        </li>
-        <li>
-          <div><b>Port</b>: 25</div>
-        </li>
-        <li>
-          <div>It's anonymous, no username and password required.</div>
-        </li>
-        <li>
-          <div>You can only send email to snapmail email address with snapmail SMTP service.</div>
-        </li>
-        <li>
-          <div>Please check port 25 is not blocked in your network.</div>
-        </li>
-      </ul>
-    </section>
-</div>
+## Snapmail makes these 4 tasks amazingly simple:
 
-#### Sending email using builtin C# libraries:    
+#### 1. Register anonymously on websites using Snapmail email address.
+![Register anonymously](/assets/post_resource/snapmail.gif)
+
+#### 2. A single inbox is enough for all with wildcard inbox.
+Add an email address support prefix. 
+![Register anonymously](/assets/post_resource/how_it_works/prefix_email1.jpg)
+
+We can receive all the emails when the address start with the prefix.
+![Register anonymously](/assets/post_resource/how_it_works/prefix_email2.jpg)
+
+You can always get a new email address when you click [Copy], so you don't have to worry about using duplicated email address.
+
+![Register anonymously](/assets/post_resource/how_it_works/prefix_email3.jpg)
+#### 3. Send email with Snapmail SMTP server. 
+<a target='_blank' href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">See more details ></a>
+
+Sending email using builtin C# libraries:    
 
      using System;
      using System.Net.Mail;
@@ -83,6 +69,7 @@ stickie:
          }
      }    
 
+#### 4. Automate user registration with Snapmail API.
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
 
