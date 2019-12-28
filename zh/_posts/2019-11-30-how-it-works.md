@@ -1,12 +1,12 @@
 ---
 layout: post
-title: How Snapmail works?
+title: Snapmail是怎么工作的?
 lang: zh
 tags: 
 stickie: true
 ---
 
-## Snapmail makes these 4 tasks amazingly simple:
+## Snapmail让这4种任务变的如此简单:
 
 #### 1. Register anonymously on websites using Snapmail email address.
 ![Register anonymously](/assets/post_resource/snapmail.gif)

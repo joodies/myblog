@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to send an email with Snapmail SMTP?
+title: 怎么用Snapmail SMTP来发邮件?
 lang: zh
 tags: 
 stickie: 

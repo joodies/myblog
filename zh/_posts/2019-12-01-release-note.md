@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Release note - Dec 1, 2019 
+title: 版本发布 - 2019-12-01 
 lang: zh
 tags: 
 stickie: 
 ---
 
-### Dec 1, 2019
+### 2019-12-01
 
 + Introduce blog pages. <a target="_blank" href="https://blog.snapmail.cc">https://blog.snapmail.cc</a>
 + You can use Snapmail SMTP server to test emails. <a target="_blank" href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">How to send an email with Snapmail SMTP?</a>
