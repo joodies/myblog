@@ -6,18 +6,17 @@ tags:
 stickie: 
 ---
 
-#### When do you need this service?
-+ You are testing user-registration or password-reset email, and you don't have an SMTP
-              server to send email.
+#### 你在什么情况需要使用Snapmail SMTP？
++ 你正在测试邮箱注册或者重置密码等功能，但是你没有SMTP服务器来发邮件。
               
 #### SMTP Server
 + __Host__: mail.snapmail.cc
-+ __Port__: 25   
-+ It's anonymous, no username and password required.
-+ You can only send email to snapmail email address with snapmail SMTP service.
-+ Please check port 25 is not blocked in your network.
++ __端口__: 25   
++ 他是匿名的，不需要用户名和密码。
++ 你只能发邮件到@snapmail.cc
++ 请检查你的网络环境是否屏蔽了25端口。
 
-#### Sending email using builtin C# libraries    
+#### 使用c#来发送邮件的代码：  
 
      using System;
      using System.Net.Mail;
@@ -63,6 +62,6 @@ stickie:
      }    
 
 
-<a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
+<a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体验Snapmail </a>
 
-<a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
+<a href="https://www.snapmail.cc/blog/"><i class="fa fa-arrow-circle-left"></i> 返回到首页 </a>

@@ -6,68 +6,22 @@ sitetime: display
 permalink: zh/release.html
 ---
 
-<div id="release-notes">
-    <section>
-        <h4>Dec 1, 2019</h4>
-        <ul>
-            <li>
-                <div>Introduce blog pages. <a target="_blank" href="https://blog.snapmail.cc">https://blog.snapmail.cc</a>
-                </div>
-            </li>
-            <li>
-                <div>You can use Snapmail SMTP server to test emails. <a target="_blank" href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">How to send an email with Snapmail SMTP?</a>
-                </div>
-            </li>
-            <li>
-                <div>When you click [Copy] of a wildcard inbox, you will always get a new email address. Try it now, <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">add a wildcard inbox.</a>
-                </div>
-            </li>
-            <li>
-                <div>Mobile device support.
-                </div>
-            </li>
-            <li>
-                <div>API of /email is removed. 
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h4>Oct 27, 2019</h4>
-        <ul>
-            <li>
-                <div><b>Breaking change:</b> You have to add email box first, you won't see those email you don't
-                    care.
-                </div>
-            </li>
-            <li>
-                <div><b>Wildcard email box:</b> When you add new email box, one wildcard email box supports all
-                    email boxes with the prefix you defined.
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h4>Aug 18, 2019</h4>
-        <ul>
-            <li>
-                <div>All emails have 4 hours data retention.</div>
-            </li>
-            <li>
-                <div><b>New API:</b> Get emails for an email address,
-                    <a target="_blank" href="https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc">https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc</a>
-                </div>
-            </li>
-            <li>
-                <div><b>Update API:</b> You can not find email content in <a href="https://www.snapmail.cc/email"
-                                                                             target="_blank"
-                >http//www.snapmail.cc/email</a>
-                </div>
-            </li>
-        </ul>
-    </section>
-</div>
+### 2019-12-01
+
++ 你可以使用Snapmail SMTP来发送邮件。 <a target="_blank" href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">怎么用Snapmail SMTP发送邮件？</a>
++ 当你点击[复制]的时候，你总是可以得到一个新的邮箱地址。现在试一试，<a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">添加一个前缀邮件</a>
++ 支持移动设备。
+
+### 2019-10-27
+
++ __重大改变__：你需要先添加邮箱才能收到邮件，不再会看到那些你不关心的邮件。
++ 前缀邮箱：当你需要很多个临时邮箱的时候，使用前缀邮箱，一个前缀邮箱就够了，不需要添加多次。
+
+### 2019-08-18
+
++ 邮件会保留4个小时，然后自动删除。
++ 新的API：查询一个邮箱的所有邮件，<a target="_blank" href="https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc">https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc</a>
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
 
-<a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
+<a href="https://www.snapmail.cc/blog/"><i class="fa fa-arrow-circle-left"></i> 返回到首页 </a>

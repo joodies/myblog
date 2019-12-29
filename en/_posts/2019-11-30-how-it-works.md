@@ -22,7 +22,7 @@ You can always get a new email address when you click [Copy], so you don't have 
 
 ![Register anonymously]({{site.hosturl}}/assets/post_resource/how_it_works/prefix_email3.jpg)
 #### 3. Send email with Snapmail SMTP server. 
-<a target='_blank' href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">See more details ></a>
+<a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">See more details ></a>
 
 Sending email using builtin C# libraries:    
 
@@ -73,4 +73,4 @@ Sending email using builtin C# libraries:
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
 
-<a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
+<a href="https://www.snapmail.cc/blog/"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>

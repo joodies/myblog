@@ -11,10 +11,6 @@ permalink: en/release.html
         <h4>Dec 1, 2019</h4>
         <ul>
             <li>
-                <div>Introduce blog pages. <a target="_blank" href="https://blog.snapmail.cc">https://blog.snapmail.cc</a>
-                </div>
-            </li>
-            <li>
                 <div>You can use Snapmail SMTP server to test emails. <a target="_blank" href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">How to send an email with Snapmail SMTP?</a>
                 </div>
             </li>
@@ -24,10 +20,6 @@ permalink: en/release.html
             </li>
             <li>
                 <div>Mobile device support.
-                </div>
-            </li>
-            <li>
-                <div>API of /email is removed. 
                 </div>
             </li>
         </ul>
@@ -41,7 +33,7 @@ permalink: en/release.html
                 </div>
             </li>
             <li>
-                <div><b>Wildcard email box:</b> When you add new email box, one wildcard email box supports all
+                <div>Prefix email box: When you add new email box, one wildcard email box supports all
                     email boxes with the prefix you defined.
                 </div>
             </li>
@@ -58,16 +50,10 @@ permalink: en/release.html
                     <a target="_blank" href="https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc">https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc</a>
                 </div>
             </li>
-            <li>
-                <div><b>Update API:</b> You can not find email content in <a href="https://www.snapmail.cc/email"
-                                                                             target="_blank"
-                >http//www.snapmail.cc/email</a>
-                </div>
-            </li>
         </ul>
     </section>
 </div>
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
 
-<a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
+<a href="https://www.snapmail.cc/blog/"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>

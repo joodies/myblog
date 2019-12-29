@@ -6,25 +6,25 @@ tags:
 stickie: true
 ---
 
-## Snapmail让这4种任务变的如此简单:
+## Snapmail让这4种任务变的如此简单：
 
-#### 1. Register anonymously on websites using Snapmail email address.
+#### 1. 使用临时邮箱注册网站，保护个人真实邮箱。
 ![Register anonymously]({{site.hosturl}}/assets/post_resource/snapmail.gif)
 
-#### 2. A single inbox is enough for all with wildcard inbox.
-Add an email address support prefix. 
+#### 2. 当你需要很多个临时邮箱的时候，推荐使用前缀邮箱，一个前缀邮箱就够了，不需要添加多次。
+添加一个前缀邮箱。 
 ![Register anonymously]({{site.hosturl}}/assets/post_resource/how_it_works/prefix_email1.jpg)
 
-We can receive all the emails when the address start with the prefix.
+只要邮箱地址是这个前缀，你就能收到邮件了。
 ![Register anonymously]({{site.hosturl}}/assets/post_resource/how_it_works/prefix_email2.jpg)
 
-You can always get a new email address when you click [Copy], so you don't have to worry about using duplicated email address.
+你总是可以得到一个新的邮箱地址，当你点击[复制]的时候，所以你不用担心这个地址是不是已经使用过了。
 
 ![Register anonymously]({{site.hosturl}}/assets/post_resource/how_it_works/prefix_email3.jpg)
-#### 3. Send email with Snapmail SMTP server. 
-<a target='_blank' href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">See more details ></a>
+#### 3. 使用Snapmail SMTP来发邮件。
+<a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">查看更多 ></a>
 
-Sending email using builtin C# libraries:    
+使用c#来发送邮件的代码：    
 
      using System;
      using System.Net.Mail;
@@ -69,8 +69,8 @@ Sending email using builtin C# libraries:
          }
      }    
 
-#### 4. Automate user registration with Snapmail API.
+#### 4. 在自动化测试中使用Snapmail API。
 
-<a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
+<a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体验Snapmail </a>
 
-<a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
+<a href="https://www.snapmail.cc/blog/"><i class="fa fa-arrow-circle-left"></i> 返回到首页 </a>

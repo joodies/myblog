@@ -13,32 +13,67 @@
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://blog.snapmail.cc/</loc>
+    <loc>https://www.snapmail.cc/blog/</loc>
     <lastmod>2019-12-01T11:32:22+00:00</lastmod>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://blog.snapmail.cc/release.html</loc>
+    <loc>https://www.snapmail.cc/blog/en/</loc>
+    <lastmod>2019-12-01T11:32:22+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.snapmail.cc/blog/zh/</loc>
+    <lastmod>2019-12-01T11:32:22+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.snapmail.cc/blog/en/release.html</loc>
     <lastmod>2019-12-01T11:32:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://blog.snapmail.cc/support.html</loc>
+    <loc>https://www.snapmail.cc/blog/zh/release.html</loc>
     <lastmod>2019-12-01T11:32:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://blog.snapmail.cc/2019/11/30/how-it-works.html</loc>
+    <loc>https://www.snapmail.cc/blog/en/support.html</loc>
     <lastmod>2019-12-01T11:32:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://blog.snapmail.cc/2019/12/01/release-note.html</loc>
+    <loc>https://www.snapmail.cc/blog/zh/support.html</loc>
     <lastmod>2019-12-01T11:32:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html</loc>
+    <loc>https://www.snapmail.cc/blog/en/2019/11/30/how-it-works.html</loc>
+    <lastmod>2019-12-01T11:32:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.snapmail.cc/blog/zh/2019/11/30/how-it-works.html</loc>
+    <lastmod>2019-12-01T11:32:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.snapmail.cc/blog/en/2019/12/01/release-note.html</loc>
+    <lastmod>2019-12-01T11:32:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.snapmail.cc/blog/zh/2019/12/01/release-note.html</loc>
+    <lastmod>2019-12-01T11:32:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.snapmail.cc/blog/en/2019/11/30/snapmail-smtp.html</loc>
+    <lastmod>2019-12-01T11:32:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html</loc>
     <lastmod>2019-12-01T11:32:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>

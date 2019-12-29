@@ -8,12 +8,10 @@ stickie:
 
 ### 2019-12-01
 
-+ Introduce blog pages. <a target="_blank" href="https://blog.snapmail.cc">https://blog.snapmail.cc</a>
-+ You can use Snapmail SMTP server to test emails. <a target="_blank" href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">How to send an email with Snapmail SMTP?</a>
-+ When you click [Copy] of a wildcard inbox, you will always get a new email address. Try it now, <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">add a wildcard inbox.</a>
-+ Mobile device support.
-+ API of /email is removed.
++ 你可以使用Snapmail SMTP来发送邮件。 <a target="_blank" href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">怎么用Snapmail SMTP发送邮件？</a>
++ 当你点击[复制]的时候，你总是可以得到一个新的邮箱地址。现在试一试，<a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">添加一个前缀邮件</a>
++ 支持移动设备。
 
-<a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
+<a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体验Snapmail </a>
 
-<a href="https://blog.snapmail.cc"><i class="fa fa-arrow-circle-left"></i> Back to Snapmail blog</a>
+<a href="https://www.snapmail.cc/blog/"><i class="fa fa-arrow-circle-left"></i> 返回到首页 </a>
