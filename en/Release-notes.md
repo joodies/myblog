@@ -11,7 +11,7 @@ permalink: en/release.html
         <h4>Dec 1, 2019</h4>
         <ul>
             <li>
-                <div>You can use Snapmail SMTP server to test emails. <a target="_blank" href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">How to send an email with Snapmail SMTP?</a>
+                <div>You can use Snapmail SMTP server to test emails. <a target="_blank" href="https://www.snapmail.cc/blog/en/2019/11/30/snapmail-smtp.html">How to send an email with Snapmail SMTP?</a>
                 </div>
             </li>
             <li>
