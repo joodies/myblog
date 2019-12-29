@@ -33,8 +33,8 @@
    {% comment %}
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>{% endcomment %}
     {% include style.html %}
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.css">
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/fade.css">
+    <link rel="stylesheet" href="{{site.hosturl}}{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{site.hosturl}}{{ site.baseurl }}/assets/css/fade.css">
     <script>
       var _hmt = _hmt || [];
       (function() {
@@ -69,9 +69,6 @@
     {% endif %}
     {% if page.layout == 'post' %}
       {% assign page-tagline = page.tagline | escape %}
-    {% endif %}
-    {% if page.layout == 'tags' %}
-      {% assign page-tagline = page.tagline | escape %}
     {% endif %}
     <script>
       var OriginTitile = document.title;

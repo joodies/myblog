@@ -9,18 +9,18 @@ stickie: true
 ## Snapmail让这4种任务变的如此简单:
 
 #### 1. Register anonymously on websites using Snapmail email address.
-![Register anonymously](/assets/post_resource/snapmail.gif)
+![Register anonymously]({{site.hosturl}}{{ site.baseurl }}/assets/post_resource/snapmail.gif)
 
 #### 2. A single inbox is enough for all with wildcard inbox.
 Add an email address support prefix. 
-![Register anonymously](/assets/post_resource/how_it_works/prefix_email1.jpg)
+![Register anonymously]({{site.hosturl}}{{ site.baseurl }}/assets/post_resource/how_it_works/prefix_email1.jpg)
 
 We can receive all the emails when the address start with the prefix.
-![Register anonymously](/assets/post_resource/how_it_works/prefix_email2.jpg)
+![Register anonymously]({{site.hosturl}}{{ site.baseurl }}/assets/post_resource/how_it_works/prefix_email2.jpg)
 
 You can always get a new email address when you click [Copy], so you don't have to worry about using duplicated email address.
 
-![Register anonymously](/assets/post_resource/how_it_works/prefix_email3.jpg)
+![Register anonymously]({{site.hosturl}}{{ site.baseurl }}/assets/post_resource/how_it_works/prefix_email3.jpg)
 #### 3. Send email with Snapmail SMTP server. 
 <a target='_blank' href="https://blog.snapmail.cc/2019/11/30/snapmail-smtp.html">See more details ></a>
 
