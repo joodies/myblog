@@ -1,6 +1,7 @@
 try:
   en: Try
   zh: 体验
+  ja: 体験
 
 share:
   default: 'Share: '

@@ -34,13 +34,37 @@
           {% endfor %}
 <!--          <a class="page-link" href="{{ site.baseurl }}/en" style="margin-right: 0">En |</a>-->
 <!--          <a class="page-link" href="{{ site.baseurl }}/zh">中</a>-->
-          <select style="border: none;color: white;background: #0078D4;">
-            <option value="volvo">中文</option>
-            <option value="saab">English</option>
-            <option value="opel">日本語</option>
-          </select>
+            <select onchange="changeLang(this.options[this.options.selectedIndex].value)" style="border: none;color: white;background: #0078D4;">
+              {% if page.lang == 'zh' %}
+                <option selected value="zh">中文</option>
+              {% else %}
+                <option value="zh">中文</option>
+              {% endif %}
+
+              {% if page.lang == 'en' %}
+                <option selected value="en">English</option>
+              {% else %}
+                <option value="en">English</option>
+              {% endif %}
+
+              {% if page.lang == 'ja' %}
+                <option selected value="ja">日本語</option>
+              {% else %}
+                <option value="ja">日本語</option>
+              {% endif %}
+            </select>
         </div>
       </nav>
     {% endif %}
   </div>
 </header>
+<script>
+  var _lang = ('{{page.lang}}' === 'en' || '{{page.lang}}' === 'zh' || '{{page.lang}}' === 'ja') ? '{{page.lang}}' : ''
+  if (_lang !== '') {
+    window.localStorage.lang = _lang
+  }
+
+  function changeLang(value) {
+    location.href = location.href.replace('/blog/{{page.lang}}', '/blog/' + value)
+  }
+</script>

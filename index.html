@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <script type="text/javascript">
-      var lang = navigator.language || navigator.userLanguage;
-      switch (lang.substring(0, 2)) {
-        case "zh":
-          window.location.replace("zh");
-          break;
-        case "en":
-        default:
-          window.location.replace("en");
+      if (window.localStorage.lang) {
+        var _lang = window.localStorage.lang
+        _lang = (_lang === 'en' || _lang === 'zh' || _lang === 'ja') ? _lang : 'en'
+        window.location.replace(_lang);
+      } else {
+        var lang = navigator.language || navigator.userLanguage;
+        switch (lang.substring(0, 2)) {
+          case "zh":
+            window.location.replace("zh");
+            break;
+          case "en":
+          default:
+            window.location.replace("en");
+        }
       }
     </script>
-  </head>
-  <body>
-    <noscript>
-      <a href="/en/">English</a>
-      <a href="/zh/">中文</a>
-    </noscript>
-  </body>
+</head>
+<body>
+<noscript>
+    <a href="/en/">English</a>
+    <a href="/zh/">中文</a>
+</noscript>
+</body>
 </html>
