@@ -32,8 +32,13 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <a class="page-link" href="{{ site.baseurl }}/en" style="margin-right: 0">En |</a>
-          <a class="page-link" href="{{ site.baseurl }}/zh">中</a>
+<!--          <a class="page-link" href="{{ site.baseurl }}/en" style="margin-right: 0">En |</a>-->
+<!--          <a class="page-link" href="{{ site.baseurl }}/zh">中</a>-->
+          <select style="border: none;color: white;background: #0078D4;">
+            <option value="volvo">中文</option>
+            <option value="saab">English</option>
+            <option value="opel">日本語</option>
+          </select>
         </div>
       </nav>
     {% endif %}

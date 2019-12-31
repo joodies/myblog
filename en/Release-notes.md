@@ -15,7 +15,7 @@ permalink: en/release.html
                 </div>
             </li>
             <li>
-                <div>When you click [Copy] of a wildcard inbox, you will always get a new email address. Try it now, <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">add a wildcard inbox.</a>
+                <div>When you click [Copy] of a prefix inbox, you will always get a new email address. Try it now, <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">add a wildcard inbox.</a>
                 </div>
             </li>
             <li>
