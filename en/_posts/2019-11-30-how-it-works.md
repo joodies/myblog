@@ -70,6 +70,9 @@ Sending email using builtin C# libraries:
      }    
 
 #### 4. Automate user registration with Snapmail API.
+When it comes to automation test for website, you will need to cover the case of automating user registration.
+With Snapmail API, you can get it done at your fingertips. 
+<a target='_blank' href="https://www.snapmail.cc/blog/en/2020/01/05/automation-test.html">View details> ></a>
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> Try Snapmail now</a>
 

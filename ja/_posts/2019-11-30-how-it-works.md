@@ -70,6 +70,10 @@ c#を使ってメールのコードを送信します。
      }    
 
 #### 4. 自動化テストではSnapmail APIを使用します。
+ウェブサイトの自動化テストに関しては、ユーザー登録の自動化のケースをカバーする必要があります。
+Snapmail APIを使用すると、すぐに操作できます。
+<a target='_blank' href="https://www.snapmail.cc/blog/ja/2020/01/05/automation-test.html">もっと見る> ></a>
+
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体験Snapmail </a>
 

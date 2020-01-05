@@ -70,6 +70,9 @@ stickie: true
      }    
 
 #### 4. 在自动化测试中使用Snapmail API。
+当涉及到网站的自动化测试时，您将需要解决使用户注册自动化的问题。
+借助Snapmail API，您可以轻松完成它。 
+<a target='_blank' href="https://www.snapmail.cc/blog/zh/2020/01/05/automation-test.html">查看更多> ></a>
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体验Snapmail </a>
 
