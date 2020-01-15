@@ -20,8 +20,43 @@ stickie:
     你可以使用Snapmail SMTP来发邮件，如果你没有SMTP服务。 <a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">查看详情 ></a> 
 
 + 现在是时候使用Snapmail API来获取验证邮件了，空谈无用，给我看看代码。
-    ```  
-    # example in C# code  
+    ```python
+    # Code in Python
+    import time
+    import requests
+    import json
+    import re
+    
+    
+    def get_verification_code(email):
+        # We want to get account validation code in email
+        validation_code = None
+        # We will retry the request every 6 seconds to get the email
+        for i in range(50):
+            # Get emails from an email box
+            req = requests.get('https://snapmail.cc/emaillist/' + email)
+            if req.status_code == 200:
+                # Get email text of the first email,
+                # take "This is a test email." for example,
+                # email_text = "This is a test email."
+                email_text = json.loads(req.text)[0]['text']
+                # Use regex to get the validation code, we'll get "test" here.
+                # validation_code = "test"
+                validation_code = re.search(r'This is a ([a-zA-Z0-9]{4}) email', email_text)
+                break
+    
+            print("Waiting for next retry")
+            time.sleep(6)
+        if validation_code:
+            print('validation_code:' + validation_code.group(1))
+            return validation_code.group(1)
+    
+    
+    get_verification_code('richard@snapmail.cc')
+    ```
+
+    ```c#  
+    // Code in C#
     using Newtonsoft.Json.Linq;
     using System;
     using System.Net.Http;
@@ -62,7 +97,7 @@ stickie:
                         // take "This is a test email." for example.
                         // email_text = "This is a test email."
                         var email_text = emails[0]["text"].ToString();
-                        Regex regex = new Regex("This is a ([\\da-zA-Z0-9]{4}) email");
+                        Regex regex = new Regex("This is a ([a-zA-Z0-9]{4}) email");
                         Match match = regex.Match(email_text);
                         // Use regex to get the validation code, we'll get "test" here.
                         // validation_code = "test"
@@ -70,7 +105,7 @@ stickie:
                         Console.WriteLine(validation_code);
                         break;
                     }
-                    Console.WriteLine("Waiting for next try");
+                    Console.WriteLine("Waiting for next retry");
                     // Sleep 6 seconds
                     Thread.Sleep(6000);
                 }
@@ -78,7 +113,6 @@ stickie:
             }
         }
     }
-
     ```
 
 + 您可以使用任何想要的电子邮件地址，建议在这种情况下使用前缀电子邮件地址，无需将其添加到Snapmail.cc

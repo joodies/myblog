@@ -20,8 +20,43 @@ With Snapmail API, you can get it done at your fingertips.
     You can use the SMTP service of Snapmail's if you don't have one. <a target='_blank' href="https://www.snapmail.cc/blog/en/2019/11/30/snapmail-smtp.html">See more details ></a> 
 
 + It's time to use Snapmail API to get the validation email, talk is cheap, show me the code.
-    ```  
-    # example in C# code  
+    ```python
+    # Code in Python
+    import time
+    import requests
+    import json
+    import re
+    
+    
+    def get_verification_code(email):
+        # We want to get account validation code in email
+        validation_code = None
+        # We will retry the request every 6 seconds to get the email
+        for i in range(50):
+            # Get emails from an email box
+            req = requests.get('https://snapmail.cc/emaillist/' + email)
+            if req.status_code == 200:
+                # Get email text of the first email,
+                # take "This is a test email." for example,
+                # email_text = "This is a test email."
+                email_text = json.loads(req.text)[0]['text']
+                # Use regex to get the validation code, we'll get "test" here.
+                # validation_code = "test"
+                validation_code = re.search(r'This is a ([a-zA-Z0-9]{4}) email', email_text)
+                break
+    
+            print("Waiting for next retry")
+            time.sleep(6)
+        if validation_code:
+            print('validation_code:' + validation_code.group(1))
+            return validation_code.group(1)
+    
+    
+    get_verification_code('richard@snapmail.cc')
+    ```
+
+    ```c#  
+    // Code in C#
     using Newtonsoft.Json.Linq;
     using System;
     using System.Net.Http;
@@ -62,7 +97,7 @@ With Snapmail API, you can get it done at your fingertips.
                         // take "This is a test email." for example.
                         // email_text = "This is a test email."
                         var email_text = emails[0]["text"].ToString();
-                        Regex regex = new Regex("This is a ([\\da-zA-Z0-9]{4}) email");
+                        Regex regex = new Regex("This is a ([a-zA-Z0-9]{4}) email");
                         Match match = regex.Match(email_text);
                         // Use regex to get the validation code, we'll get "test" here.
                         // validation_code = "test"
@@ -70,7 +105,7 @@ With Snapmail API, you can get it done at your fingertips.
                         Console.WriteLine(validation_code);
                         break;
                     }
-                    Console.WriteLine("Waiting for next try");
+                    Console.WriteLine("Waiting for next retry");
                     // Sleep 6 seconds
                     Thread.Sleep(6000);
                 }
@@ -78,7 +113,6 @@ With Snapmail API, you can get it done at your fingertips.
             }
         }
     }
-
     ```
 
 + You can use any email address you want, it's recommended to use prefix email address for such scenario, no need to add it on Snapmail.cc

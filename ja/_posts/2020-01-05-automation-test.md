@@ -20,8 +20,43 @@ Snapmail APIを使用すると、すぐに操作できます。
     SMTPサービスがない場合は、Snapmail SMTPを使ってメールを送ることができます。 <a target='_blank' href="https://www.snapmail.cc/blog/ja/2019/11/30/snapmail-smtp.html">詳細を見る ></a> 
 
 + Snapmail APIを使用して検証メールを取得するときです。話は安上がりです。コードを見せてください。
-    ```  
-    # example in C# code  
+    ```python
+    # Code in Python
+    import time
+    import requests
+    import json
+    import re
+    
+    
+    def get_verification_code(email):
+        # We want to get account validation code in email
+        validation_code = None
+        # We will retry the request every 6 seconds to get the email
+        for i in range(50):
+            # Get emails from an email box
+            req = requests.get('https://snapmail.cc/emaillist/' + email)
+            if req.status_code == 200:
+                # Get email text of the first email,
+                # take "This is a test email." for example,
+                # email_text = "This is a test email."
+                email_text = json.loads(req.text)[0]['text']
+                # Use regex to get the validation code, we'll get "test" here.
+                # validation_code = "test"
+                validation_code = re.search(r'This is a ([a-zA-Z0-9]{4}) email', email_text)
+                break
+    
+            print("Waiting for next retry")
+            time.sleep(6)
+        if validation_code:
+            print('validation_code:' + validation_code.group(1))
+            return validation_code.group(1)
+    
+    
+    get_verification_code('richard@snapmail.cc')
+    ```
+
+    ```c#  
+    // Code in C#
     using Newtonsoft.Json.Linq;
     using System;
     using System.Net.Http;
@@ -62,7 +97,7 @@ Snapmail APIを使用すると、すぐに操作できます。
                         // take "This is a test email." for example.
                         // email_text = "This is a test email."
                         var email_text = emails[0]["text"].ToString();
-                        Regex regex = new Regex("This is a ([\\da-zA-Z0-9]{4}) email");
+                        Regex regex = new Regex("This is a ([a-zA-Z0-9]{4}) email");
                         Match match = regex.Match(email_text);
                         // Use regex to get the validation code, we'll get "test" here.
                         // validation_code = "test"
@@ -70,7 +105,7 @@ Snapmail APIを使用すると、すぐに操作できます。
                         Console.WriteLine(validation_code);
                         break;
                     }
-                    Console.WriteLine("Waiting for next try");
+                    Console.WriteLine("Waiting for next retry");
                     // Sleep 6 seconds
                     Thread.Sleep(6000);
                 }
@@ -78,7 +113,6 @@ Snapmail APIを使用すると、すぐに操作できます。
             }
         }
     }
-
     ```
 
 + 任意の電子メールアドレスを使用できます。このようなシナリオではプレフィックスの電子メールアドレスを使用することをお勧めします。Snapmail.ccに追加する必要はありません
