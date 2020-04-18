@@ -65,6 +65,6 @@
   }
 
   function changeLang(value) {
-    location.href = location.href.replace('/blog/{{page.lang}}', '/blog/' + value)
+    location.href = location.href.replace('/blog/{{page.lang}}', '/blog/' + value).replace('blog.snapmail.cc/{{page.lang}}', 'blog.snapmail.cc/' + value)
   }
 </script>
