@@ -16,7 +16,7 @@ stickie:
 + 你只能发邮件到@snapmail.cc
 + 请检查你的网络环境是否屏蔽了25端口。
 
-#### 使用c#来发送邮件的代码：  
+#### 使用C#来发送邮件的代码：  
 
      using System;
      using System.Net.Mail;
