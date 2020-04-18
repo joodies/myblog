@@ -19,7 +19,7 @@ With Snapmail API, you can get it done at your fingertips.
     
     You can use the SMTP service of Snapmail's if you don't have one. <a target='_blank' href="https://www.snapmail.cc/blog/en/2019/11/30/snapmail-smtp.html">See more details ></a> 
 
-+ It's time to use Snapmail API to get the validation email, talk is cheap, show me the code.
++ It's time to use Snapmail API to get the validation email, talk is cheap, show me the code(Python, C#).
     ```python
     # Code in Python
     import time

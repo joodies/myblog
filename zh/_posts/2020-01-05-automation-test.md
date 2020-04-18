@@ -19,7 +19,7 @@ stickie:
     
     你可以使用Snapmail SMTP来发邮件，如果你没有SMTP服务。 <a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">查看详情 ></a> 
 
-+ 现在是时候使用Snapmail API来获取验证邮件了，空谈无用，给我看看代码。
++ 现在是时候使用Snapmail API来获取验证邮件了，空谈无用，给我看看代码(Python, C#)。
     ```python
     # Code in Python
     import time
