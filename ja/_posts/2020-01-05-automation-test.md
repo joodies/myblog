@@ -19,7 +19,7 @@ Snapmail APIを使用すると、すぐに操作できます。
     
     SMTPサービスがない場合は、Snapmail SMTPを使ってメールを送ることができます。 <a target='_blank' href="https://www.snapmail.cc/blog/ja/2019/11/30/snapmail-smtp.html">詳細を見る ></a> 
 
-+ Snapmail APIを使用して検証メールを取得するときです。話は安上がりです。コードを見せてください(Python, C#)。
++ Snapmail APIを使用して検証メールを取得するときです。話は安上がりです。コードを見せてください (Python, C#)。
     ```python
     # Code in Python
     import time
