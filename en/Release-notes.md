@@ -6,6 +6,11 @@ sitetime: display
 permalink: en/release.html
 ---
 
+#### Jun 17, 2020
+
++ We have 2 new domains available, lista.cc, xxxhi.cc. <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">Add new email address</a>
+
+
 <div id="release-notes">
     <section>
         <h4>Dec 1, 2019</h4>

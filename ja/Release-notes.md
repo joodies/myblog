@@ -6,6 +6,10 @@ sitetime: display
 permalink: ja/release.html
 ---
 
+#### Jun 17, 2020
+
++ 我々は、利用可能な2つの新しいドメインを持っている, lista.cc, xxxhi.cc. <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">新しいメールアドレスを追加</a>
+
 ### 2019-12-01
 
 + Snapmail SMTPを使ってメールを送ることができます。 <a target="_blank" href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">どうやってSnapmail SMTPでメールを送りますか？</a>
