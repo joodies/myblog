@@ -24,7 +24,7 @@ stickie: true
 #### 3. Snapmail SMTPを使ってメールします。
 <a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">もっと見る> ></a>
 
-c#を使ってメールのコードを送信します。    
+C#を使ってメールのコードを送信します。    
 
      using System;
      using System.Net.Mail;

@@ -23,7 +23,7 @@ permalink: zh/release.html
 
 #### 2019-08-18
 
-+ 邮件会保留4个小时，然后自动删除。
++ 邮件会保留24个小时，然后自动删除。
 + 新的API：查询一个邮箱的所有邮件，<a target="_blank" href="https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc">https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc</a>
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体验Snapmail </a>

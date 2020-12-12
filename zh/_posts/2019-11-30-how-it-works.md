@@ -24,7 +24,7 @@ stickie: true
 #### 3. 使用Snapmail SMTP来发邮件。
 <a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">查看更多 ></a>
 
-使用c#来发送邮件的代码：    
+使用C#来发送邮件的代码：    
 
      using System;
      using System.Net.Mail;

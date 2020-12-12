@@ -48,7 +48,7 @@ permalink: en/release.html
         <h4>Aug 18, 2019</h4>
         <ul>
             <li>
-                <div>All emails have 4 hours data retention.</div>
+                <div>All emails have 24 hours data retention.</div>
             </li>
             <li>
                 <div><b>New API:</b> Get emails for an email address,

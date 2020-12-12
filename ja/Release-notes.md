@@ -23,7 +23,7 @@ permalink: ja/release.html
 
 ### 2019-08-18
 
-+ メールは4時間保留されます。自動的に削除されます。
++ メールは24時間保留されます。自動的に削除されます。
 + 新しいAPI：メールボックスのすべてのメールを調べて、<a target="_blank" href="https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc">https://www.snapmail.cc/email/mailbox/YourMailBox@snapmail.cc</a>
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体験Snapmail </a>
