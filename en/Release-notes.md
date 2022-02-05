@@ -5,6 +5,13 @@ lang: en
 sitetime: display
 permalink: en/release.html
 ---
+#### 2022-02-04
+
++ Software developers can use Snapmail SMTP to send mail, there is no limit to the number of messages sent or received, and sender needs to use @snapmail.cc domain name.<a target='_blank' href="https://www.snapmail.cc/blog/en/2019/11/30/snapmail-smtp.html">See more details ></a>
+
+#### 2021-10-24
+
++ Support user registration, in order to facilitate synchronization of mail address lists between different devices.
 
 #### Jun 17, 2020
 

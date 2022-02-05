@@ -6,6 +6,14 @@ sitetime: display
 permalink: ja/release.html
 ---
 
+#### 2022-02-04
+
++ ソフトウェア開発者は、Snapmail SMTPを使用してメールを送信することができ、送受信されるメッセージの数に制限はなく、送信者は@snapmail.cc ドメイン名を使用する必要があります。<a target='_blank' href="https://www.snapmail.cc/blog/ja/2019/11/30/snapmail-smtp.html">もっと見る> ></a>
+
+#### 2021-10-24
+
++ ユーザー登録をサポートして、異なるデバイス間でのメールアドレスリストの同期を容易にします。
+
 #### Jun 17, 2020
 
 + 我々は、利用可能な2つの新しいドメインを持っている, lista.cc, xxxhi.cc. <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">新しいメールアドレスを追加</a>

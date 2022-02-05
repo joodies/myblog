@@ -22,7 +22,7 @@ stickie: true
 
 ![Register anonymously]({{site.hosturl}}/assets/post_resource/how_it_works/prefix_email3.jpg)
 #### 3. Snapmail SMTPを使ってメールします。
-<a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">もっと見る> ></a>
+<a target='_blank' href="https://www.snapmail.cc/blog/ja/2019/11/30/snapmail-smtp.html">もっと見る> ></a>
 
 C#を使ってメールのコードを送信します。    
 

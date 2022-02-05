@@ -6,6 +6,14 @@ sitetime: display
 permalink: zh/release.html
 ---
 
+#### 2022-02-04
+
++ 软件开发人员使用Snapmail SMTP发送邮件，没有发邮件和收邮件的数量限制，发件人需要使用@snapmail.cc域名。<a target='_blank' href="https://www.snapmail.cc/blog/zh/2019/11/30/snapmail-smtp.html">查看更多 ></a>
+
+#### 2021-10-24
+
++ 支持用户注册，方便在不同设备之间同步邮件地址列表。
+
 #### 2020-06-17
 
 + 新增了2个邮箱域名lista.cc, xxxhi.cc. <a target="_blank" href="https://www.snapmail.cc/#/addEmailBox">添加新的邮箱地址</a>
