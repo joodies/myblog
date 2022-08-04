@@ -6,6 +6,17 @@
     app_id: '{{ site.data.social.valine_comment.leancloud_appid }}',
     app_key: '{{ site.data.social.valine_comment.leancloud_appkey }}',
     placeholder: '{{ site.data.social.valine_comment.placeholder }}',
-    lang: 'en'
+    lang: '{{page.lang}}' === 'zh' ? 'zh-CN' : 'en',
+    serverURLs: '{{ site.data.social.valine_comment.serverURLs }}'
   });
 </script>
+
+<style>
+    .vpower.txt-right, .vsys {
+        display: none !important;
+    }
+
+    .vsubmit.vbtn {
+        color: #ef2f11 !important;
+    }
+</style>

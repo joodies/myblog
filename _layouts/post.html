@@ -49,7 +49,7 @@ layout: default
   
   {% if site.data.social.valine_comment.enable  == true %}
   <script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
-  <script src="{{site.hosturl}}/comment/Valine.min.js?v=2022"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   <div id="comments"></div>
   {% include comments.html %}
   {% endif %}

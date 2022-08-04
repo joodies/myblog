@@ -3,3 +3,4 @@ valine_comment:
   leancloud_appid: luzjc3JXBmQ5e2QXDL8nXM41-MdYXbMMI
   leancloud_appkey: MhcX4bP92XIsUe090Lpabr5I
   placeholder: Say something...
+  serverURLs: https://lc.snapmail.cc
