@@ -8,7 +8,7 @@ permalink: ja/support.html
 ---
 
 ### 何かアドバイスや質問がありますか？メールで送ってください。
-### Email: <a href="mailto:gaxdev+snapmail@gmail.com">smcc2030@gmail.com</a>
+### Email: <a href="mailto:smcc2030@gmail.com">smcc2030@gmail.com</a>
 
 <a target="_blank" href="https://www.snapmail.cc"><i class="fa fa-envelope a"></i> 体験Snapmail </a>
 
